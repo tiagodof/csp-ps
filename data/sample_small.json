@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {"id": "CS101", "lecturer": "Dr. Murphy",  "students": 25},
+    {"id": "CS102", "lecturer": "Dr. Kelly",   "students": 30},
+    {"id": "CS201", "lecturer": "Dr. Murphy",  "students": 20},
+    {"id": "CS202", "lecturer": "Dr. Ryan",    "students": 35},
+    {"id": "CS301", "lecturer": "Dr. Kelly",   "students": 15}
+  ],
+  "rooms": [
+    {"id": "A101", "capacity": 40},
+    {"id": "B203", "capacity": 30},
+    {"id": "C105", "capacity": 20}
+  ],
+  "slots": [
+    "Mon-09:00", "Mon-11:00", "Mon-14:00",
+    "Tue-09:00", "Tue-11:00", "Tue-14:00",
+    "Wed-09:00", "Wed-11:00", "Wed-14:00",
+    "Thu-09:00"
+  ],
+  "lecturer_availability": {
+    "Dr. Murphy": ["Mon-09:00", "Mon-11:00", "Tue-09:00", "Tue-11:00", "Wed-09:00"],
+    "Dr. Kelly":  ["Mon-11:00", "Mon-14:00", "Tue-14:00", "Wed-11:00", "Thu-09:00"],
+    "Dr. Ryan":   ["Mon-09:00", "Tue-09:00", "Tue-11:00", "Wed-14:00", "Thu-09:00"]
+  }
+}
