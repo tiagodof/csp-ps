@@ -1,0 +1,37 @@
+{
+  "courses": [
+    {"id": "CS101", "lecturer": "Dr. Murphy",  "students": 25},
+    {"id": "CS102", "lecturer": "Dr. Kelly",   "students": 30},
+    {"id": "CS103", "lecturer": "Dr. Ryan",    "students": 18},
+    {"id": "CS201", "lecturer": "Dr. Murphy",  "students": 20},
+    {"id": "CS202", "lecturer": "Dr. Kelly",   "students": 35},
+    {"id": "CS203", "lecturer": "Dr. Walsh",   "students": 22},
+    {"id": "CS301", "lecturer": "Dr. Ryan",    "students": 15},
+    {"id": "CS302", "lecturer": "Dr. Walsh",   "students": 28},
+    {"id": "CS303", "lecturer": "Dr. Murphy",  "students": 32},
+    {"id": "CS401", "lecturer": "Dr. Kelly",   "students": 12},
+    {"id": "CS402", "lecturer": "Dr. Ryan",    "students": 20},
+    {"id": "CS403", "lecturer": "Dr. Walsh",   "students": 25}
+  ],
+  "rooms": [
+    {"id": "A101", "capacity": 40},
+    {"id": "A102", "capacity": 35},
+    {"id": "B203", "capacity": 30},
+    {"id": "B204", "capacity": 25},
+    {"id": "C105", "capacity": 20},
+    {"id": "C106", "capacity": 15}
+  ],
+  "slots": [
+    "Mon-09:00", "Mon-11:00", "Mon-14:00", "Mon-16:00",
+    "Tue-09:00", "Tue-11:00", "Tue-14:00", "Tue-16:00",
+    "Wed-09:00", "Wed-11:00", "Wed-14:00",
+    "Thu-09:00", "Thu-11:00", "Thu-14:00",
+    "Fri-09:00", "Fri-11:00"
+  ],
+  "lecturer_availability": {
+    "Dr. Murphy": ["Mon-09:00","Mon-11:00","Tue-09:00","Tue-11:00","Wed-09:00","Wed-11:00","Thu-09:00"],
+    "Dr. Kelly":  ["Mon-11:00","Mon-14:00","Tue-14:00","Tue-16:00","Wed-11:00","Thu-11:00","Fri-09:00"],
+    "Dr. Ryan":   ["Mon-09:00","Tue-09:00","Tue-11:00","Wed-14:00","Thu-09:00","Thu-14:00","Fri-11:00"],
+    "Dr. Walsh":  ["Mon-14:00","Mon-16:00","Tue-14:00","Wed-09:00","Wed-14:00","Thu-11:00","Thu-14:00"]
+  }
+}
