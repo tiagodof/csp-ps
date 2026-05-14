@@ -1,8 +1,6 @@
-# CA3 — Constraint Satisfaction Problem: University Timetable Scheduler
+# CSP — University Timetable Scheduler
 
 **Module:** Computer Science and Problem Solving  
-**Assessment:** Continuous Assessment 3 (CA3)
-
 ## Overview
 
 This project implements a **Constraint Satisfaction Problem (CSP)** solver applied to the classic university timetable scheduling problem. Given a set of courses, rooms, lecturers, and time slots, the solver finds a valid assignment that satisfies all hard constraints and optimises for soft constraints.
@@ -29,7 +27,7 @@ A valid timetable must satisfy the following **hard constraints**:
 ## Project Structure
 
 ```
-csp-ps_ca3/
+csp-ps/
 ├── src/
 │   ├── csp.py              # Core CSP engine (variables, domains, constraints)
 │   ├── backtracking.py     # Backtracking search with MRV and LCV heuristics
@@ -63,8 +61,8 @@ csp-ps_ca3/
 
 ```bash
 # Clone the repository
-git clone https://github.com/tiagodof/csp-ps_ca3.git
-cd csp-ps_ca3
+git clone https://github.com/tiagodof/csp-ps.git
+cd csp-ps
 
 # Run the solver on the sample dataset
 python main.py

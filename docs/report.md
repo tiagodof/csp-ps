@@ -1,4 +1,4 @@
-# CA3 Report — CSP Timetable Scheduling
+# CSP Timetable Scheduling — Algorithm Analysis Report
 
 ## 1. Problem Formulation
 
